@@ -1,11 +1,30 @@
 <resources>
-    <string name="app_name">HuiLv练习</string>
+    <string name="app_name">Hello</string>
     <string name="btn_dollar_label">DOLLAR</string>
     <string name="btn_euro_label">EURO</string>
     <string name="btn_won_label">WON</string>
     <string name="btn_save_label">SAVE</string>
     <string name="btn_reset_lable" />
-    <string name="lable_add3" />
+    <string name="lable_add3" />+3 POINTS
     <string name="lable_add2" />
     <string name="lable_add1" />
+    <string name="hello">Happy Birthday!</string>
+    <string name="sm">Your best friend</string>
+    <string name="rmb_hint_label">input RMB</string>
+    <string name="lable_first" />
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lable_second">secoond page</string>
+    <string name="lable_third">third page</string>
+    <string name="lable_first1">first page</string>
+
 </resources>

@@ -17,8 +17,7 @@
         android:layout_marginLeft="168dp"
         android:layout_marginTop="540dp"
         android:onClick="btnReset"
-        android:text="@string/btn_reset_lable"
-        app:backgroundTint="#FF9800"
+        android:text="RESET"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,8 +59,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:onClick="btnAdd3"
-                android:text="@string/lable_add3"
-                app:backgroundTint="#FF9800" />
+                android:text="+3 POINTS"
+                android:textSize="18dp"/>
+
 
             <Button
                 android:id="@+id/btn_2"
@@ -69,16 +69,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:onClick="btnAdd2"
-                android:text="@string/lable_add2"
-                app:backgroundTint="#FF9800" />
+                android:text="+2 POINTS"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"/>
+
 
             <Button
                 android:id="@+id/btn_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="btnAdd1"
-                android:text="@string/lable_add1"
-                app:backgroundTint="#FF9800" />
+                android:text="+1 POINTS"
+                android:textSize="18dp"/>
+
         </LinearLayout>
 
         <TextView
@@ -122,8 +125,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:onClick="btnAdd3"
-                android:text="@string/lable_add3"
-                app:backgroundTint="#FF9800" />
+                android:text="+3 POINTS"
+                android:textSize="18dp" />
 
             <Button
                 android:id="@+id/btn_2b"
@@ -131,16 +134,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:onClick="btnAdd2"
-                android:text="@string/lable_add2"
-                app:backgroundTint="#FF9800" />
+                android:text="+2 POINTS"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp" />
 
             <Button
                 android:id="@+id/btn_1b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="btnAdd1"
-                android:text="@string/lable_add1"
-                app:backgroundTint="#FF9800" />
+                android:text="+1 POINTS"
+                android:textSize="18dp" />
         </LinearLayout>
 
     </LinearLayout>

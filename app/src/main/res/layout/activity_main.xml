@@ -79,6 +79,15 @@
             android:onClick="openOne"
             android:gravity="center"
             android:textSize="26dp"
-            android:layout_marginTop="12dp"/>
+            android:layout_marginTop="12dp" />
+        <Button
+            android:id="@+id/btn_result2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:onClick="myClick"
+            android:gravity="center"
+            android:textSize="26dp"
+            android:layout_marginTop="12dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
